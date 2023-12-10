@@ -1,0 +1,121 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 6 may. 2023, 16:00:35
+    Author     : DELL
+*/
+header {
+    color: white;
+    background-color: #9c408a;
+    border-bottom-style: solid;
+    border-bottom-color: white;
+    padding: 10px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo img {
+    display: block;
+    width: 40%;
+    margin: auto;
+}
+
+.buscador {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buscador input {
+    border: 1px solid white;
+    border-radius: 5px;
+    outline-color: white;
+    width: 90%;
+    padding: 5px;
+}
+
+.buscador img {
+    width: 20px;
+    margin: 20px;
+}
+
+.lista {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.lista ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+.lista li {
+    padding: 10px;
+    display: inline-block;
+}
+
+.lista li a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.lista li a:hover{
+    border-bottom: 1px solid white;
+}
+
+.iconos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.iconos a {
+    text-align: center;
+    color: white;
+    padding: 0px;
+    text-decoration: none;
+    width: 40%;
+    border-radius: 3px;
+    margin: 5px;
+}
+
+.iconos a:hover {
+    border-bottom: 1px solid white;
+}
+
+.iconos img {
+    width: 20%;
+    margin: 6px;
+}
+
+.iconos .class-user {
+    width: 15%;
+}
+
+.iconos .class-cart {
+    width: 15%;
+}
+
+#lista-clave {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#lista-clave img {
+    width: 10%;
+    cursor: pointer;
+}

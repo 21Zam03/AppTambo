@@ -1,0 +1,75 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 26 may. 2023, 21:48:50
+    Author     : DELL
+*/
+.contenedor {
+    background-color: #ececec;
+    padding: 17px;
+}
+
+.contenedor .columna1 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.contenedor img {
+    width: 5%;  
+}
+
+.contenedor .columna2 input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    outline: none;
+    width: 100%;
+    background-color: inherit;
+}
+
+main .contenedor2 .fila1 h1 {
+    margin: 50px;
+    font-size: 25px;
+}
+
+main .contenedor2 .fila1 {
+    color: black;
+    padding-left: 125px;
+    padding-right: 125px;
+}
+
+main .contenedor2 .fila1 .cuadro {
+    margin-bottom: 20px;
+    transition: transform 0.2s ease-in-out;
+}
+
+main .contenedor2 .fila1 h2 {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+main .contenedor2 .fila1 img {
+    margin-bottom: 20px;
+    object-fit: cover;
+    object-position: center;
+    transition: transform 0.2s ease-in-out;
+    width: 100%;
+}
+
+main .contenedor2 .fila1 img:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+    border-radius: 10px;
+}
+
+main .contenedor2 .fila1 .cuadro {
+    margin-bottom: 40px;
+}
+
+
+
+

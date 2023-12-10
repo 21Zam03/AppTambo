@@ -1,0 +1,100 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 28 may. 2023, 11:31:55
+    Author     : DELL
+*/
+body {
+    background-color: #F4F6FA !important;
+}
+
+main .col1 img {
+    width: 100%;
+}
+
+main .col1 .logo-contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 15%;
+    border-radius: 10px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+main .encabezado {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+main .encabezado .col1{
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .encabezado .col1 p {
+    margin: 0px;
+}
+
+main .fila-p {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+main .fila-p .col1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .fila-p .col1 p {
+    margin: 0px;
+}
+
+main .fila-p .col1 #cantidad {
+    width: 25%;
+}
+main .total {
+    background-color: white;
+    padding: 20px;
+    margin: 0px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 10px; 
+}
+
+main .total .col1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .total .col1:first-child {
+      
+}
+
+main .total p {
+    margin: 0px;
+}
+
+main .fila-p .boton-x {
+    border-radius: 10px;
+    border-color: inherit;
+}
+
+main .total button {
+    border-radius: 10px;
+    border-color: inherit;
+}

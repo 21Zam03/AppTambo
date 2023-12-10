@@ -1,0 +1,92 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 9 may. 2023, 14:18:27
+    Author     : DELL
+*/
+.row {
+    margin-right: 0 !important
+}
+
+/*Estilos para el MAIN*/
+body {
+    font-family: sans-serif;
+    margin: 0px;
+}
+
+main {
+    background-color: white;
+}
+
+main .contenedor-banner {
+    padding: 0 !important
+}
+
+main .contenedor-banner img {
+    padding: 0px;
+    width: 100%;
+}
+
+main .contenedor-banner .fila1 {
+    margin-bottom: 30px !important;
+}
+
+main .contenedor-banner .fila2 h1 {
+    font-size: 32px;
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+main .contenedor-banner .fila3 {
+    color: white;
+    padding-left: 125px;
+    padding-right: 125px;
+}
+
+main .contenedor-banner .fila3 .cuadro {
+    margin-bottom: 20px;
+    transition: transform 0.2s ease-in-out;
+}
+
+main .contenedor-banner .fila3 h2 {
+    font-size: 23px;
+}
+
+main .contenedor-banner .fila3 img {
+    margin-bottom: 20px;
+    object-fit: cover;
+    object-position: center;
+    transition: transform 0.2s ease-in-out;
+}
+
+main .contenedor-banner .fila3 img:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+    border-radius: 10px;
+}
+
+main .contenedor-banner .fila3 .cuadro {
+    margin-bottom: 40px;
+}
+
+main .fila2 .col-sugerencia {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+main .fila2 .col-sugerencia button {
+    background-color: #9c408a;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 30px;
+    margin-bottom: 20px;
+    border-color: white;
+}
+
+main .fila3 {
+    color: black !important;
+}

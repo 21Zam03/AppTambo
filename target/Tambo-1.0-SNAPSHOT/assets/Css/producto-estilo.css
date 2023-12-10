@@ -1,0 +1,123 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 27 may. 2023, 11:46:24
+    Author     : DELL
+*/
+body {
+    background-color: white !important;
+}
+
+main {
+    color: black;
+    margin-top: 50px;
+}
+
+main .producto-fila1 {
+   
+}
+
+/*Estilos para la columna 1*/
+main .columna1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: none;
+    border-radius: 10px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+    background-color: #9c408a;
+}
+
+main .columna1 img {
+    width: 50%;
+    border-radius: 5px;
+    background-color: red;
+}
+
+/*Estilos para la columna 2*/
+main .columna2 {
+    color: white;
+    padding: 50px;
+    padding-top: 20px;
+    border: 1px solid blue;
+    border-left: none;
+    border-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    background-color: #9c408a;
+}
+
+main .columna2 .producto-nombre{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+main .columna2 .producto-precio, .producto-cantidad, .producto-info {
+    margin-bottom: 20px;
+}
+
+main .columna2 .producto-precio, .producto-cantidad {
+    font-size: 18px;
+}
+
+main .columna2 .producto-cantidad {
+    padding-bottom: 20px;
+    border-bottom: solid 1px white;
+}
+
+main .columna2 .producto-cantidad input {
+    width: 10%;
+    border-radius: 5px;
+    border-color: inherit;
+    outline: none;
+}
+
+main .columna2 .producto-nombre {
+    font-size: 35px;
+}
+
+main .columna2 p {
+    font-size: 20px;
+}
+
+main .columna2 .linea {
+    padding-bottom: 20px;
+    border-bottom: solid 1px white;
+}
+
+/*Estilos para los botones*/
+main .columna2 button {
+    display: block;
+    padding: 13px 50px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+main .columna2 .boton1 {
+    background-color: inherit;
+    color: black;
+    border: solid 1px white;
+    border-radius: 5px;
+}
+
+main .columna2 .boton1:hover {
+    transition: all 0.5s;
+    background-color: #C1CADA;
+    color: black;
+    color: white;
+}
+
+main .columna2 .boton2 {
+    background-color: #F0E581;
+    border-radius: 5px;
+    border: solid 1px white;
+}
+
+main .columna2 .boton2:hover {
+    transition: all 0.5s;
+    background-color: #9c408a;
+    color: black;
+}

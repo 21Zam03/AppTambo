@@ -1,0 +1,47 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+<%
+    HttpSession session1 = request.getSession(false);
+    String usuario = null;
+    if (session1 != null) {
+            usuario = (String) session1.getAttribute("usuario");
+        }
+%>
+<header class="container-fluid">
+    <nav class="row" id="fila-header">
+        <div class="col-12 col-md-4 col-lg-2 logo">
+            <img src="assets/Img/Icons/logo.png" alt="LOGO">
+        </div>
+        <div class="col-12 col-md-4 col-lg-4 buscador">
+            <img src="assets/Img/Icons/lupita.svg" alt="icono"> 
+            <input list="frameworks" type="text" placeholder="Busque una categoria">
+            <datalist id="frameworks">
+                <option>Abarrotes</option>
+                <option>Embutidos</option>
+                <option>Snacks</option>
+                <option>Hogar y limpieza</option>
+                <option>Cuidado Personal</option>
+                <option>Preservativos</option>
+                <option>Bebidas alcoholicas</option>
+                <option>Bebidas no alcoholicas</option>
+                <option>Helados</option>
+            </datalist>
+        </div>
+        <div class="col-12 col-md-5 col-lg-3 lista">
+            <ul>
+                <li><a href="index.jsp">Inicio</a></li>
+                <li><a href="categorias.jsp">Categorias</a></li>
+                <li><a href="info.jsp">Info</a></li>
+            </ul>
+        </div>
+        <div class="col-12 col-md-3 col-lg-3 iconos">
+            <%if (usuario != null) { %>
+            <a href="miCuenta.jsp"><img src="assets/Img/Icons/user.svg" alt="icon-1" class="class-user">${usuario}</a>
+            <%} else {%>
+            <a href="login.jsp"><img src="assets/Img/Icons/user.svg" alt="icon-1" class="class-user">Iniciar Sesion</a>
+            <%}%>
+            <a href="Compras?"><img src="assets/Img/Icons/carrito.svg" alt="icon-3" class="class-cart">Compras</a>
+        </div>
+    </nav>
+            <script src=""></script>
+</header>  
